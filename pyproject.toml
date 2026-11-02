@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "areanogree-multiling_jd252"
+name = "areanogree-function_call_schema_budget_alloc"
 version = "0.1.0"
 description = "按给定权重把总额度分配到各项，报告超分配项与利用率"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://areanogree.github.io"
-Repository = "https://github.com/areanogree/multiling_jd252"
-Issues = "https://github.com/areanogree/multiling_jd252/issues"
+Repository = "https://github.com/areanogree/function_call_schema_budget_alloc"
+Issues = "https://github.com/areanogree/function_call_schema_budget_alloc/issues"
 
 [project.scripts]
-multiling_jd252 = "multiling_jd252:main"
+function_call_schema_budget_alloc = "function_call_schema_budget_alloc:main"
 
 [tool.setuptools]
-py-modules = ["multiling_jd252"]
+py-modules = ["function_call_schema_budget_alloc"]
